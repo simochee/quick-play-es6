@@ -7,14 +7,16 @@ const config = require('../config');
 gulp.task('webpack', () => {
   gulp.src(`${config.src.js}**/*.js`)
       .pipe(webpackStream({
-        rules: [
-          {
-            test: /\.js$/,
-            use: ['babel-loader'],
-            enforce: 'post',
-          },
-        ],
         devtool: 'inline-source-map',
+        module: {
+          rules: [
+            {
+              test: /\.js$/,
+              use: ['babel-loader'],
+              enforce: 'post',
+            },
+          ],
+        },
       }, webpack))
       .pipe(gulp.dest(config.dist.js));
 });
