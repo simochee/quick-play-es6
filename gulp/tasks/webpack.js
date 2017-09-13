@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const webpack = require('webpack');
-const webpackStream = require('webpackStream');
+const webpackStream = require('webpack-stream');
 
 const config = require('../config');
 
