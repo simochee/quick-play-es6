@@ -1,4 +1,4 @@
-# ES2017 Quick Starter Kit
+# ES2017 Quick Play Kit
 
 手っ取り早くES6（ES2017）を試すための開発環境
 
