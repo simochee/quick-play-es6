@@ -10,5 +10,6 @@ gulp.task('server', () => {
     },
     port: config.server.port || 43000,
     notify: config.server.notify || false,
+    open: config.server.open || true,
   });
 });
