@@ -1,3 +1,6 @@
+# 生成されたファイルはcommitさせない
+docs/
+
 # Logs
 logs
 *.log
