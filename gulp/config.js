@@ -17,7 +17,7 @@ module.exports = {
 
   src: {
     root: src,
-    html: src,
+    html: `${src}html`,
     js: `${src}javascripts/`,
     css: `${src}stylesheets/`,
   },
