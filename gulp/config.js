@@ -24,8 +24,8 @@ module.exports = {
 
   dist: {
     root: dist,
-    html, dist,
+    html: dist,
     js: `${dist}javascripts/`,
-    src: `${dist}stylehseets/`,
+    css: `${dist}stylehseets/`,
   }
 }
