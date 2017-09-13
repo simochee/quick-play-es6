@@ -13,6 +13,7 @@ module.exports = {
   server: {
     port: 43000,
     notify: false,
+    open: true,
   },
 
   src: {
