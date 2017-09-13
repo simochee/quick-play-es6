@@ -5,7 +5,9 @@
   "repository": "https://github.com/simochee/quick-play-es6.git",
   "author": "田村 亮弥 <simochee@google.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "gulp"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
