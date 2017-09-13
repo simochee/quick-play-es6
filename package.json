@@ -1,0 +1,15 @@
+{
+  "name": "quick-play-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/simochee/quick-play-es6.git",
+  "author": "田村 亮弥 <simochee@google.com>",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2017": "^6.24.1",
+    "require-dir": "^0.3.2"
+  }
+}
